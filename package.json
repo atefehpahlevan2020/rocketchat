@@ -1,0 +1,19 @@
+{
+  "name": "rocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "ddp.js": "^2.2.1",
+    "https-proxy-agent": "^5.0.0",
+    "url": "^0.11.0",
+    "ws": "^7.3.1"
+  }
+}
