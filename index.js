@@ -1,2 +1,1 @@
-// exports.RocketChatApi = require("./rocketChat").RocketChatApi;
-exports.RocketChatClient = require("./rocketChat").RocketChatClient;
+exports.RocketChatApi = require("./rocketChatApi").RocketChatApi;
