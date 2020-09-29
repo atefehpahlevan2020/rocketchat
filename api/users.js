@@ -1,13 +1,11 @@
-require('./request')
+const axios =require('axios')
 
-class Users {
-  constructor(client){
-  this.client = client
-  }
-
-create (user, callback) {
-  return this.client.sendRequest('post', 'users.create', user, callback);
+async function createUser(req,res) {
+  try {
+    const res = await axios.post('/api/v1/users.create');
+    console.log(res);
+  } catch (err) {
+    console.error(err);
   }
 }
-
-module.exports = Users
+exports.createUser = createUser
